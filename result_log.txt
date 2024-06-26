@@ -1,0 +1,116 @@
+INFO - Generating synthetic performance data for nodes...
+INFO - Normalizing performance data...
+INFO - Calculating confidence scores...
+INFO - Simulating raw test scores...
+INFO - Scaling raw test scores...
+INFO - Calculating adjusted evaluation scores...
+INFO - Calculating final performance scores...
+INFO - Initial performance score distribution: 
+count    1000.000000
+mean       74.234497
+std        29.584608
+min        10.809590
+25%        49.454006
+50%        73.639499
+75%        98.404696
+max       138.837216
+Name: final_performance_score, dtype: float64
+INFO - Assigning nodes to zones using hybrid strategy...
+INFO - Nodes in zone 0: [66, 88, 94, 99, 136, 161, 162, 276, 324, 337, 361, 420, 489, 545, 574, 602, 604, 633, 636, 644, 653, 669, 699, 731, 766, 789, 811, 826, 839, 895, 911, 948, 951, 975, 989]
+INFO - Nodes in zone 1: [1, 53, 74, 89, 110, 132, 195, 203, 211, 234, 255, 299, 308, 374, 376, 409, 422, 435, 437, 461, 472, 473, 478, 495, 563, 584, 597, 613, 628, 657, 674, 695, 714, 723, 804, 807, 809, 810, 813, 817, 848, 863, 865, 914, 969, 980]
+INFO - Nodes in zone 2: [49, 54, 60, 75, 125, 152, 168, 210, 218, 228, 258, 267, 269, 315, 343, 346, 349, 399, 436, 492, 522, 532, 534, 540, 556, 576, 588, 591, 608, 647, 673, 706, 715, 722, 736, 757, 775, 785, 798, 801, 822, 836, 844, 926, 970, 992]
+INFO - Nodes in zone 3: [7, 56, 105, 127, 129, 151, 153, 172, 192, 227, 235, 238, 249, 261, 283, 293, 311, 320, 321, 365, 385, 391, 418, 428, 507, 509, 510, 523, 587, 594, 603, 625, 725, 726, 732, 737, 753, 765, 802, 806, 860, 880, 881, 901, 937, 939, 963, 984, 994]
+INFO - Nodes in zone 4: [11, 17, 24, 43, 61, 78, 108, 117, 155, 177, 187, 225, 226, 231, 232, 262, 302, 316, 330, 336, 338, 345, 359, 372, 380, 408, 448, 477, 527, 566, 567, 605, 621, 630, 637, 639, 666, 681, 696, 705, 739, 760, 778, 796, 818, 824, 832, 846, 855, 861, 888, 890, 904, 909, 956, 998]
+INFO - Nodes in zone 5: [63, 72, 96, 112, 116, 122, 123, 124, 128, 165, 171, 207, 259, 260, 275, 282, 306, 309, 317, 344, 355, 366, 403, 411, 432, 442, 443, 452, 465, 467, 469, 484, 490, 511, 520, 531, 536, 537, 546, 550, 560, 586, 606, 622, 629, 684, 701, 754, 762, 767, 773, 776, 777, 797, 843, 845, 868, 878, 892, 913, 934, 936, 941, 942, 945, 957, 981, 993]
+INFO - Nodes in zone 6: [0, 13, 15, 22, 103, 111, 114, 140, 146, 157, 184, 190, 213, 216, 223, 236, 265, 266, 270, 288, 292, 312, 319, 331, 334, 382, 386, 388, 401, 415, 424, 441, 455, 486, 487, 491, 512, 555, 561, 571, 572, 589, 590, 614, 635, 643, 649, 667, 677, 679, 691, 744, 745, 746, 770, 794, 805, 815, 837, 840, 850, 857, 882, 894, 896, 905, 921, 929, 940, 954, 968]
+INFO - Nodes in zone 7: [27, 28, 39, 41, 46, 51, 76, 86, 91, 98, 101, 107, 113, 120, 131, 134, 137, 141, 145, 158, 173, 176, 179, 183, 217, 230, 233, 239, 244, 253, 279, 301, 304, 307, 333, 351, 368, 387, 414, 417, 419, 423, 462, 470, 475, 494, 524, 533, 539, 585, 607, 640, 650, 663, 664, 675, 683, 703, 717, 733, 751, 755, 758, 772, 780, 782, 795, 808, 814, 823, 842, 849, 866, 886, 897, 908, 915, 935, 938, 947, 955, 958, 979]
+INFO - Nodes in zone 8: [10, 14, 32, 40, 44, 47, 50, 59, 97, 104, 119, 143, 148, 149, 154, 163, 164, 189, 191, 202, 220, 240, 243, 246, 250, 251, 271, 287, 290, 328, 341, 348, 350, 358, 363, 389, 393, 444, 449, 451, 464, 504, 505, 508, 519, 525, 528, 551, 562, 578, 582, 593, 623, 634, 638, 658, 686, 687, 688, 690, 693, 709, 711, 712, 740, 742, 748, 771, 779, 781, 783, 787, 792, 799, 812, 827, 852, 854, 858, 859, 864, 874, 883, 893, 902, 903, 916, 920, 924, 928, 932, 933, 950, 974, 982]
+INFO - Nodes in zone 9: [3, 5, 19, 21, 26, 29, 48, 52, 55, 58, 100, 106, 109, 115, 118, 130, 156, 166, 174, 175, 180, 186, 197, 199, 206, 215, 224, 247, 252, 257, 272, 286, 289, 294, 305, 310, 322, 329, 353, 360, 364, 369, 377, 379, 381, 398, 412, 416, 430, 434, 438, 445, 459, 460, 474, 503, 516, 541, 549, 554, 580, 610, 626, 656, 659, 692, 697, 700, 718, 728, 735, 743, 750, 769, 786, 821, 828, 829, 833, 838, 851, 869, 872, 876, 877, 889, 891, 912, 919, 922, 923, 925, 960, 961, 962, 966, 977, 985, 987, 995]
+INFO - Ranking nodes within zones...
+INFO - Normalizing and adjusting scores within zones...
+INFO - Calculating global ranks and scaling...
+INFO - Calculating scaled scores and aggregate scores...
+INFO - Calculating percentile ranks and global comparative scores...
+INFO - Predicting potential top performer nodes...
+INFO - Potential top performer nodes: [401, 168, 720, 907, 739]
+INFO - Details of potential top performer nodes:
+     confidence_score  raw_test_score  scaled_test_score  ...  aggregate_score  percentile_rank  global_comparative_score
+401         90.320687       93.676873          93.676873  ...       138.837216            100.0                     100.0
+168         70.015269       99.505273          99.505273  ...       134.512907             99.9                      99.9
+720         77.281753       95.779524          95.779524  ...       134.420400             99.8                      99.8
+907         83.184822       92.584951          92.584951  ...       134.177362             99.7                      99.7
+739         63.766231       99.196566          99.196566  ...       131.079682             99.6                      99.6
+
+[5 rows x 11 columns]
+INFO - Selecting the top performer node...
+INFO - Top performer node: 401 with confidence score: 90.32068677452051
+INFO - Top performer node details: 
+reliability                                97.851307
+security                                   98.830953
+participation                              85.553400
+endorsements                               86.127472
+protocol_adherence                         61.405589
+norm_reliability                           98.043162
+norm_security                              98.880163
+norm_participation                         85.612372
+norm_endorsements                          86.145660
+norm_protocol_adherence                    61.433741
+confidence_score                           90.320687
+raw_test_score                             93.676873
+scaled_test_score                          93.676873
+adjusted_reliability_score                 57.516010
+adjusted_security_score                    48.139259
+adjusted_participation_score               35.857849
+adjusted_endorsements_score                26.973380
+adjusted_protocol_adherence_score          15.511061
+final_adjusted_evaluation_score           183.997560
+final_performance_score                   138.837216
+zone                                        6.000000
+zone_rank                                   1.000000
+zone_norm_reliability                      99.724939
+zone_adjusted_reliability_score            58.020544
+zone_norm_security                         99.487487
+zone_adjusted_security_score               48.291090
+zone_norm_participation                    85.347681
+zone_adjusted_participation_score          35.804911
+zone_norm_endorsements                     89.816018
+zone_adjusted_endorsements_score           27.523934
+zone_norm_protocol_adherence               61.066447
+zone_adjusted_protocol_adherence_score     15.474332
+zone_final_adjusted_evaluation_score      185.114810
+zone_final_performance_score              139.395842
+global_rank                                 1.000000
+scaled_reliability_score                   41.651165
+scaled_security_score                      34.709304
+scaled_participation_score                 27.767443
+scaled_endorsements_score                  20.825582
+scaled_protocol_adherence_score            13.883722
+aggregate_score                           138.837216
+percentile_rank                           100.000000
+global_comparative_score                  100.000000
+Name: 401, dtype: float64
+INFO - Distribution of final performance scores across zones:
+      count       mean        std        min        25%        50%         75%         max
+zone                                                                                      
+0.0    35.0  72.131826  30.389972  20.536303  47.111758  75.662238   96.455202  130.386146
+1.0    46.0  76.708526  27.323103  21.673330  59.861695  81.295513   96.106977  124.600150
+2.0    46.0  74.880416  28.775398  26.996247  50.131795  73.552640   98.244193  134.512907
+3.0    49.0  70.401519  27.113207  24.459498  50.218214  69.925040   86.418820  127.870070
+4.0    56.0  75.062879  28.290899  23.801132  54.761308  74.483190   95.556098  131.079682
+5.0    68.0  71.637415  31.939925  14.991884  45.036126  66.449594   97.007749  128.349634
+6.0    71.0  75.433320  31.878736  24.540117  42.015200  77.797339  102.031982  138.837216
+7.0    83.0  73.340892  29.937850  15.937362  50.539909  73.355523  100.557202  127.377554
+8.0    95.0  73.748020  29.444164  18.419464  49.528885  68.574529   99.961779  126.546659
+9.0   100.0  74.645487  30.131378  10.809590  49.655413  75.741242   98.418415  130.663645
+INFO - Zone 0 - Mean final performance score: 72.13182578533672, Standard Deviation: 30.389972137231958
+INFO - Zone 1 - Mean final performance score: 76.70852605446211, Standard Deviation: 27.323103439519535
+INFO - Zone 2 - Mean final performance score: 74.8804161980156, Standard Deviation: 28.775398164982526
+INFO - Zone 3 - Mean final performance score: 70.40151917578855, Standard Deviation: 27.113206997397818
+INFO - Zone 4 - Mean final performance score: 75.06287889925196, Standard Deviation: 28.290898787942147
+INFO - Zone 5 - Mean final performance score: 71.63741549385792, Standard Deviation: 31.939925251286716
+INFO - Zone 6 - Mean final performance score: 75.43332025863431, Standard Deviation: 31.87873630945254
+INFO - Zone 7 - Mean final performance score: 73.34089247476803, Standard Deviation: 29.9378497999079
+INFO - Zone 8 - Mean final performance score: 73.74801960635476, Standard Deviation: 29.444163723351597
+INFO - Zone 9 - Mean final performance score: 74.64548728249738, Standard Deviation: 30.131378449876657
+INFO - ANOVA test results: F-statistic = 0.22453550477557518, p-value = 0.9910061721566041
+INFO - The differences in final performance scores across zones are not statistically significant.
